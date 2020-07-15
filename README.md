@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Okena
 
-You can use the [editor on GitHub](https://github.com/ma-ad/Okena/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A python tool for basic Windows 10 cleanup automation.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Features
+- deletes files from temp folders, trash bin
+- optimizes and defragments disks
+- disables telemetry and data collection
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Prerequisites 
 
-```markdown
-Syntax highlighted code block
+- download and install [Python](https://link) (3.8+)
+- make sure you have [python executable in PATH environment variable](https://geek-university.com/python/add-python-to-the-windows-path/) 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Installation
+1. Download or clone this repository
+2. Change directory to repository
+```
+cd Okena
+```
+3. run pip
+```
+pip install .
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Usage
+Run `okena` form command prompt, application will take care of everything automatically
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ma-ad/Okena/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Authors
+@adriana-smijakova
+@maros-klimovsky
